@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { UserContext } from '.UserProvider';
+import { UserContext } from './UserProvider';
 
 export default function AddUser() {
   const { addUser } = useContext(UserContext);

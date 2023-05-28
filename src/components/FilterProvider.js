@@ -1,6 +1,6 @@
 import React, { createContext, useState } from 'react';
 
-const FilterContext = createContext();
+export const FilterContext = createContext();
 
 export default function FilterProvider({ children }) {
   const [filter, setFilter] = useState('');

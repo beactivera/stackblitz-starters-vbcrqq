@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { FilterContext } from '.FilterProvider';
+import { FilterContext } from './FilterProvider';
 
 export default function FilterUser() {
   const { setFilter } = useContext(FilterContext);
